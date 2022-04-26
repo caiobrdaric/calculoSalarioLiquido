@@ -12,7 +12,7 @@ namespace calculoSalarioLiquido
         public DateTime Nascimento { get; set; }
         public int Rg  { get; set; }
         public int Cpf { get; set; }
-        public int Estado { get; set; }
+        public string Estado { get; set; }
         public float Salario { get; set; }
     }
 }
